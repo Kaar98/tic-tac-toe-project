@@ -1,0 +1,12 @@
+#ttt{
+    /* display: block; */
+    width: 50%;
+    height: 200px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    grid-template-areas: "first second third" "fourth fifth sixth" "seventh eigth ninth";
+    column-rule: 2px solid black;
+    cursor: pointer;
+}
